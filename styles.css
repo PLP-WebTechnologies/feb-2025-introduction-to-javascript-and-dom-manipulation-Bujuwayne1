@@ -1,0 +1,30 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .box {
+    width: 200px;
+    height: 100px;
+    background: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    transition: all 0.3s;
+  }
+  
+  .highlight {
+    background: #FF5722;
+    transform: scale(1.1);
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
